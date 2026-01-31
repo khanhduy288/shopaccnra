@@ -35,7 +35,7 @@ const accounts = [
 {
     id: 4,
     name: "Xayda full cs, dra vv đệ skill2 atm",
-    rank: "Kim Cương",
+    rank: "SC3",
     price: 1200000,
     images: [
       "/images/acc4/1.jpg",
@@ -57,3 +57,4 @@ const accounts = [
 ];
 
 export default accounts;
+
