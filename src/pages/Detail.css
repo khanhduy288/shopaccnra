@@ -1,0 +1,148 @@
+.detail-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.rank {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.price {
+  color: #f87171;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ACTION BUTTONS */
+.action-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.buy-btn {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.zalo-btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* ZOOM IMAGE */
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 16px;
+}
+
+/* PAYMENT BOX */
+.pay-box {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 24px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.qr-img {
+  width: 220px;
+  margin: 15px auto;
+  display: block;
+}
+
+.note-box {
+  background: #020617;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 12px 0;
+  color: #22c55e;
+}
+
+.guide {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.close-btn {
+  margin-top: 16px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #ef4444;
+  color: #fff;
+  cursor: pointer;
+}
+/* COPY ROW */
+.copy-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.copy-btn {
+  background: #2563eb;
+  border: none;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.copy-btn:hover {
+  background: #1d4ed8;
+}
+
+.copied {
+  display: block;
+  margin-top: 6px;
+  color: #22c55e;
+  font-size: 13px;
+}

@@ -1,0 +1,72 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: #111827;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;   /* ⬅ đổi left → right */
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.6);
+}
+
+
+.price {
+  color: #f87171;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #2563eb;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
